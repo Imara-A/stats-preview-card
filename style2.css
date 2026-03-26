@@ -1,0 +1,121 @@
+
+:root{
+ /*Primary*/
+--Very-dark-blue : hsl(233, 47%, 7%);
+--Dark-desaturated-blue: hsl(244, 38%, 16%);
+--Soft-violet: hsl(277, 64%, 61%);
+/*Neutral*/
+--main-heading-white: hsl(0, 0%, 100%);
+--maim-para-white: hsla(0, 0%, 100%, 0.75);
+--stats-headin-white: hsla(0, 0%, 100%, 0.6);
+}
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+body{
+    background-color: var(--Very-dark-blue);
+    color: white;
+    font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.card{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.picture{
+    margin: 0;
+    max-width: 50%;
+    background-color: var(--Soft-violet);
+}
+
+/*img{
+    filter: opacity(0.4) drop-shadow(0 0 0 hsla(277, 64%, 61%, 1.0));
+}*/
+
+.text-container{
+    padding: 5rem;
+    margin: 0;
+    background-color: var(--Dark-desaturated-blue);
+    min-width: 50%;
+}
+
+h1, h1 span{
+     font-family: 'Inter', sans-serif;
+     font-size: 30px;
+     padding-bottom: 2rem;
+}
+
+h1{
+    color: var(--main-heading-white);
+}
+
+h1 span{
+    color: var(--Soft-violet);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--maim-para-white);
+    line-height: 1.5;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul span{
+    font-family: 'Inter', sans-serif;
+    color: var(--main-heading-white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul li{
+    color: var(--stats-headin-white);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    text-align: center;
+    position: absolute;
+    bottom: 15px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
